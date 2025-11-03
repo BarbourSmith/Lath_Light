@@ -477,8 +477,8 @@
     {
       "atomType": "Molecule",
       "name": "End Support",
-      "x": 0.623409669211196,
-      "y": 0.7094594594594594,
+      "x": 0.6717557251908397,
+      "y": 0.5472972972972974,
       "uniqueID": "id-38",
       "ioValues": [],
       "topLevel": false,
@@ -1288,6 +1288,67 @@
           "source": "www.example.com"
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Rotate and split",
+      "x": 0.4707379134860051,
+      "y": 0.8783783783783784,
+      "uniqueID": "id-305",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-307",
+          "ioValues": []
+        },
+        {
+          "atomType": "Input",
+          "name": "input",
+          "x": 0.07755,
+          "y": 0.31756756756756754,
+          "uniqueID": "id-309",
+          "ioValues": [],
+          "type": "geometry"
+        },
+        {
+          "atomType": "Rotate",
+          "name": "Rotate",
+          "x": 0.25190839694656486,
+          "y": 0.6655405405405405,
+          "uniqueID": "id-312",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": -90,
+              "currentEquation": "-90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "id-309",
+          "ap2ID": "id-312"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [
@@ -1308,6 +1369,12 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-30",
       "ap2ID": "id-26"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "input",
+      "ap1ID": "id-30",
+      "ap2ID": "id-305"
     },
     {
       "ap1Name": "geometry or number",

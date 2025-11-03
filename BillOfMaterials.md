@@ -2,3 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Lath|1|$0.00|Home Depot|
+|Total: |1|$0.00| |

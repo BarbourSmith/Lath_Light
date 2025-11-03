@@ -92,6 +92,33 @@
               }
             ]
           }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ]
     },
@@ -1278,6 +1305,12 @@
     },
     {
       "ap1Name": "geometry or number",
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-30",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap1Name": "geometry or number",
       "ap2Name": "Shape 2",
       "ap1ID": "id-34",
       "ap2ID": "id-26"
@@ -1288,7 +1321,7 @@
   "compiledBom": [
     {
       "BOMitemName": "Lath",
-      "numberNeeded": 1,
+      "numberNeeded": 2,
       "costUSD": 0,
       "source": "Home Depot"
     },

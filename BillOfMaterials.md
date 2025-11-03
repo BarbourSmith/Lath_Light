@@ -3,4 +3,5 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Lath|1|$0.00|Home Depot|
-|Total: |1|$0.00| |
+|LED Light Strip|1|$0.00|www.example.com|
+|Total: |2|$0.00| |

@@ -2,6 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Lath|2|$0.00|Home Depot|
+|Lath|1|$0.00|Home Depot|
 |LED Light Strip|1|$0.00|www.example.com|
-|Total: |3|$0.00| |
+|Total: |2|$0.00| |

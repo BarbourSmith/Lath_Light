@@ -184,6 +184,94 @@
           }
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Middle Support",
+      "x": 0.1628498727735369,
+      "y": 0.9087837837837838,
+      "uniqueID": "id-30",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-32",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    },
+    {
+      "atomType": "Molecule",
+      "name": "LED Strip",
+      "x": 0.450381679389313,
+      "y": 0.6993243243243243,
+      "uniqueID": "id-34",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-36",
+          "ioValues": []
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "name": "Github Molecule",
+          "x": 0.3104325699745547,
+          "y": 0.6689189189189189,
+          "uniqueID": "id-42",
+          "ioValues": [],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-44",
+              "ioValues": []
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1,
+          "compiledBom": {}
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    },
+    {
+      "atomType": "Molecule",
+      "name": "End Support",
+      "x": 0.6819338422391857,
+      "y": 0.8277027027027026,
+      "uniqueID": "id-38",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-40",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [

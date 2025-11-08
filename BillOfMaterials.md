@@ -3,5 +3,6 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Lath|1|$0.00|Home Depot|
+|#6 Wood Screw|2|$0.20|www.example.com|
 |LED Light Strip|1|$0.00|www.example.com|
-|Total: |2|$0.00| |
+|Total: |4|$0.20| |

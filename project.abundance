@@ -155,7 +155,9 @@
                         "dimension": "3D"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "End"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -356,7 +358,9 @@
                         "dimension": "3D"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "End"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -2132,7 +2136,9 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "tags": [],
+                "tags": [
+                  "End"
+                ],
                 "bom": []
               }
             },
@@ -2352,7 +2358,9 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "tags": [],
+                        "tags": [
+                          "End"
+                        ],
                         "bom": []
                       },
                       {
@@ -2556,7 +2564,9 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "tags": [],
+                        "tags": [
+                          "End"
+                        ],
                         "bom": []
                       },
                       {
@@ -3654,6 +3664,17 @@
               "unitsKey": "MM",
               "fileTypeVersion": 1,
               "compiledBom": []
+            },
+            {
+              "atomType": "Tag",
+              "name": "End",
+              "x": 0.7150127226463104,
+              "y": 0.44256756756756754,
+              "uniqueID": "id-1587",
+              "ioValues": [],
+              "tags": [
+                "End"
+              ]
             }
           ],
           "allConnectors": [
@@ -3719,8 +3740,14 @@
             },
             {
               "ap1Name": "geometry or number",
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "id-1128",
+              "ap2ID": "id-1587"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1587",
               "ap2ID": "id-345"
             }
           ],
@@ -4382,6 +4409,16 @@
           "source": "www.example.com"
         }
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "name": "Extract Tag",
+      "x": 0.7837150127226463,
+      "y": 0.6824324324324325,
+      "uniqueID": "id-1590",
+      "ioValues": [],
+      "tag": "End",
+      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -4390,6 +4427,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-26",
       "ap2ID": "id-2"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-26",
+      "ap2ID": "id-1590"
     },
     {
       "ap1Name": "geometry or number",

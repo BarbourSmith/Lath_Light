@@ -3397,6 +3397,28 @@
               "source": "www.example.com"
             }
           ]
+        },
+        {
+          "atomType": "Molecule",
+          "name": "Wire Path",
+          "x": 0.4402035623409669,
+          "y": 0.8412162162162163,
+          "uniqueID": "id-1162",
+          "ioValues": [],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1164",
+              "ioValues": []
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1,
+          "compiledBom": {}
         }
       ],
       "allConnectors": [

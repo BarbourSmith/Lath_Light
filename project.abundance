@@ -27,8 +27,72 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5-400-0-0",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5-400-0-0",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5-400-0-0",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -46,13 +110,75 @@
                     1
                   ]
                 },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
+                "color": "#aad7f2"
               },
               {
-                "geometry": "move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -70,13 +196,75 @@
                     1
                   ]
                 },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
+                "color": "#aad7f2"
               },
               {
-                "geometry": "move-move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5--400-0-0",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5--400-0-0",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5--400-0-0",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -94,9 +282,7 @@
                     1
                   ]
                 },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
+                "color": "#aad7f2"
               }
             ],
             "plane": {
@@ -118,7 +304,26 @@
             },
             "tags": [],
             "color": "#aad7f2",
-            "bom": [],
+            "bom": [
+              {
+                "BOMitemName": "5x14mm wood screw",
+                "numberNeeded": 1,
+                "costUSD": 0.01,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "5x14mm wood screw",
+                "numberNeeded": 1,
+                "costUSD": 0.01,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "5x14mm wood screw",
+                "numberNeeded": 1,
+                "costUSD": 0.01,
+                "source": "www.example.com"
+              }
+            ],
             "dimension": "3D"
           }
         },
@@ -131,7 +336,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "move-move-cut-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                        "geometry": "move-move-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
                         "tags": [],
                         "color": "#aad7f2",
                         "plane": {
@@ -181,86 +386,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": [
-                          {
-                            "geometry": "move-move-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-0-0--10--624.5999999999999-0-0",
-                            "dimension": "3D",
-                            "tags": [],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                -4
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#DBADA9",
-                            "bom": [
-                              {
-                                "BOMitemName": "#6 Wood Screw",
-                                "numberNeeded": 1,
-                                "costUSD": 0.1,
-                                "source": "www.example.com"
-                              }
-                            ]
-                          },
-                          {
-                            "geometry": "move-move-cut-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
-                            "dimension": "3D",
-                            "tags": [],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#DBADA9",
-                            "bom": []
-                          }
-                        ],
-                        "tags": [],
-                        "bom": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2"
-                      },
-                      {
-                        "geometry": "move-move-cut-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                        "geometry": "move-move-cut-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
                         "dimension": "3D",
                         "tags": [
                           "keepout"
@@ -284,10 +410,48 @@
                         },
                         "color": "#D9544D",
                         "bom": []
+                      },
+                      {
+                        "geometry": "move-move-cut-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "5x14mm wood screw",
+                            "numberNeeded": 1,
+                            "costUSD": 0.01,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#DBADA9",
+                        "dimension": "3D"
                       }
                     ],
                     "tags": [],
-                    "bom": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
                     "plane": {
                       "origin": [
                         0,
@@ -309,7 +473,14 @@
                   }
                 ],
                 "tags": [],
-                "bom": [],
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -334,7 +505,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "rotate-move-move-cut-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                        "geometry": "rotate-move-move-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
                         "tags": [],
                         "color": "#aad7f2",
                         "plane": {
@@ -384,86 +555,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": [
-                          {
-                            "geometry": "rotate-move-move-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-0-0--10--624.5999999999999-0-0-0-0-180",
-                            "dimension": "3D",
-                            "tags": [],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                -4
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#DBADA9",
-                            "bom": [
-                              {
-                                "BOMitemName": "#6 Wood Screw",
-                                "numberNeeded": 1,
-                                "costUSD": 0.1,
-                                "source": "www.example.com"
-                              }
-                            ]
-                          },
-                          {
-                            "geometry": "rotate-move-move-cut-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
-                            "dimension": "3D",
-                            "tags": [],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#DBADA9",
-                            "bom": []
-                          }
-                        ],
-                        "tags": [],
-                        "bom": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2"
-                      },
-                      {
-                        "geometry": "rotate-move-move-cut-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                        "geometry": "rotate-move-move-cut-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
                         "dimension": "3D",
                         "tags": [
                           "keepout"
@@ -487,10 +579,48 @@
                         },
                         "color": "#D9544D",
                         "bom": []
+                      },
+                      {
+                        "geometry": "rotate-move-move-cut-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "5x14mm wood screw",
+                            "numberNeeded": 1,
+                            "costUSD": 0.01,
+                            "source": "www.example.com"
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#DBADA9",
+                        "dimension": "3D"
                       }
                     ],
                     "tags": [],
-                    "bom": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
                     "plane": {
                       "origin": [
                         0,
@@ -512,7 +642,14 @@
                   }
                 ],
                 "tags": [],
-                "bom": [],
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -552,7 +689,20 @@
             },
             "tags": [],
             "color": "#aad7f2",
-            "bom": [],
+            "bom": [
+              {
+                "BOMitemName": "5x14mm wood screw",
+                "numberNeeded": 1,
+                "costUSD": 0.01,
+                "source": "www.example.com"
+              },
+              {
+                "BOMitemName": "5x14mm wood screw",
+                "numberNeeded": 1,
+                "costUSD": 0.01,
+                "source": "www.example.com"
+              }
+            ],
             "dimension": "3D"
           }
         },
@@ -863,8 +1013,63 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5-400-0-0",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5-400-0-0",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5-400-0-0",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -884,14 +1089,76 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": []
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ]
               }
             },
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -911,14 +1178,76 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": []
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ]
               }
             },
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-move-rotate-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--90-0-5-0--5--400-0-0",
-                "dimension": "3D",
+                "geometry": [
+                  {
+                    "geometry": "move-move-rotate-cut-move-extrude-cut-rectangle-10-36-fuse-move-rectangle-10-10-5-0-0-rectangle-5-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5--400-0-0",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-move-rotate-move-rotate-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-90-0--4-0-5-0--90-0-5-0--5--400-0-0",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
+                  }
+                ],
                 "plane": {
                   "origin": [
                     0,
@@ -938,7 +1267,14 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": []
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ]
               }
             }
           ]
@@ -1016,13 +1352,20 @@
         }
       ],
       "fileTypeVersion": 1,
-      "compiledBom": []
+      "compiledBom": [
+        {
+          "BOMitemName": "5x14mm wood screw",
+          "numberNeeded": 3,
+          "costUSD": 0.03,
+          "source": "www.example.com"
+        }
+      ]
     },
     {
       "atomType": "Molecule",
       "name": "One End",
-      "x": 0.6527777777777778,
-      "y": 0.8356545961002785,
+      "x": 0.816793893129771,
+      "y": 0.8614864864864864,
       "uniqueID": "id-1991",
       "ioValues": [],
       "topLevel": false,
@@ -1057,8 +1400,8 @@
         {
           "atomType": "Rectangle",
           "name": "Rectangle",
-          "x": 0.2698412698412698,
-          "y": 0.9860724233983287,
+          "x": 0.15776081424936386,
+          "y": 0.8344594594594594,
           "uniqueID": "id-2001",
           "ioValues": [
             {
@@ -1074,8 +1417,8 @@
         {
           "atomType": "Extrude",
           "name": "Extrude",
-          "x": 0.39550264550264547,
-          "y": 0.8690807799442898,
+          "x": 0.31806615776081426,
+          "y": 0.8885135135135135,
           "uniqueID": "id-2005",
           "ioValues": [
             {
@@ -1087,8 +1430,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.5641534391534392,
-          "y": 0.6601671309192201,
+          "x": 0.4427480916030534,
+          "y": 0.7601351351351351,
           "uniqueID": "id-2009",
           "ioValues": [
             {
@@ -2887,86 +3230,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": [
-                      {
-                        "geometry": "move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7",
-                        "dimension": "3D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            -4
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#DBADA9",
-                        "bom": [
-                          {
-                            "BOMitemName": "#6 Wood Screw",
-                            "numberNeeded": 1,
-                            "costUSD": 0.1,
-                            "source": "www.example.com"
-                          }
-                        ]
-                      },
-                      {
-                        "geometry": "move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7",
-                        "dimension": "3D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#DBADA9",
-                        "bom": []
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  },
-                  {
-                    "geometry": "move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7",
+                    "geometry": "move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7",
                     "dimension": "3D",
                     "tags": [
                       "keepout"
@@ -2990,6 +3254,37 @@
                     },
                     "color": "#D9544D",
                     "bom": []
+                  },
+                  {
+                    "geometry": "move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
                   }
                 ],
                 "plane": {
@@ -3011,7 +3306,14 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": []
+                "bom": [
+                  {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                ]
               }
             }
           ]
@@ -3064,7 +3366,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "move-move-cut-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                            "geometry": "move-move-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
                             "tags": [],
                             "color": "#aad7f2",
                             "plane": {
@@ -3114,86 +3416,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": [
-                              {
-                                "geometry": "move-move-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-0-0--10--624.5999999999999-0-0",
-                                "dimension": "3D",
-                                "tags": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    -4
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#DBADA9",
-                                "bom": [
-                                  {
-                                    "BOMitemName": "#6 Wood Screw",
-                                    "numberNeeded": 1,
-                                    "costUSD": 0.1,
-                                    "source": "www.example.com"
-                                  }
-                                ]
-                              },
-                              {
-                                "geometry": "move-move-cut-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
-                                "dimension": "3D",
-                                "tags": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#DBADA9",
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          },
-                          {
-                            "geometry": "move-move-cut-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                            "geometry": "move-move-cut-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
                             "dimension": "3D",
                             "tags": [
                               "keepout"
@@ -3217,6 +3440,37 @@
                             },
                             "color": "#D9544D",
                             "bom": []
+                          },
+                          {
+                            "geometry": "move-move-cut-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "5x14mm wood screw",
+                                "numberNeeded": 1,
+                                "costUSD": 0.01,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#DBADA9",
+                            "dimension": "3D"
                           }
                         ],
                         "plane": {
@@ -3238,7 +3492,14 @@
                         },
                         "color": "#aad7f2",
                         "tags": [],
-                        "bom": []
+                        "bom": [
+                          {
+                            "BOMitemName": "5x14mm wood screw",
+                            "numberNeeded": 1,
+                            "costUSD": 0.01,
+                            "source": "www.example.com"
+                          }
+                        ]
                       }
                     ],
                     "plane": {
@@ -3260,7 +3521,14 @@
                     },
                     "color": "#aad7f2",
                     "tags": [],
-                    "bom": []
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ]
                   }
                 },
                 {
@@ -3270,7 +3538,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": "rotate-move-move-cut-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                            "geometry": "rotate-move-move-cut-cut-cut-cut-7ed87374-5-{\"geometry\":\"intersect-move-rotate-move-extrude-circle-100-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-100-0-0--50-90-0-0-30-0--79-move-extrude-rectangle-60-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-30-0-0--10\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[],\"dimension\":\"3D\"}-1-rotate-move-extrude-rectangle-4000-4000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0-180-0-0-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
                             "tags": [],
                             "color": "#aad7f2",
                             "plane": {
@@ -3320,86 +3588,7 @@
                       {
                         "geometry": [
                           {
-                            "geometry": [
-                              {
-                                "geometry": "rotate-move-move-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-7-0-0--10--624.5999999999999-0-0-0-0-180",
-                                "dimension": "3D",
-                                "tags": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    -4
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#DBADA9",
-                                "bom": [
-                                  {
-                                    "BOMitemName": "#6 Wood Screw",
-                                    "numberNeeded": 1,
-                                    "costUSD": 0.1,
-                                    "source": "www.example.com"
-                                  }
-                                ]
-                              },
-                              {
-                                "geometry": "rotate-move-move-cut-move-cut-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
-                                "dimension": "3D",
-                                "tags": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#DBADA9",
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          },
-                          {
-                            "geometry": "rotate-move-move-cut-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                            "geometry": "rotate-move-move-cut-move-cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
                             "dimension": "3D",
                             "tags": [
                               "keepout"
@@ -3423,6 +3612,37 @@
                             },
                             "color": "#D9544D",
                             "bom": []
+                          },
+                          {
+                            "geometry": "rotate-move-move-cut-move-move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5-0-0-7-fuse-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-move-rotate-move-intersect-extrude-cut-circle-27.5-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--50--50-0-30-23-0-180-0-0-0-0-10-0-0--10--624.5999999999999-0-0-0-0-180",
+                            "tags": [],
+                            "bom": [
+                              {
+                                "BOMitemName": "5x14mm wood screw",
+                                "numberNeeded": 1,
+                                "costUSD": 0.01,
+                                "source": "www.example.com"
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#DBADA9",
+                            "dimension": "3D"
                           }
                         ],
                         "plane": {
@@ -3444,7 +3664,14 @@
                         },
                         "color": "#aad7f2",
                         "tags": [],
-                        "bom": []
+                        "bom": [
+                          {
+                            "BOMitemName": "5x14mm wood screw",
+                            "numberNeeded": 1,
+                            "costUSD": 0.01,
+                            "source": "www.example.com"
+                          }
+                        ]
                       }
                     ],
                     "plane": {
@@ -3466,7 +3693,14 @@
                     },
                     "color": "#aad7f2",
                     "tags": [],
-                    "bom": []
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ]
                   }
                 }
               ]
@@ -3550,9 +3784,9 @@
           "fileTypeVersion": 1,
           "compiledBom": [
             {
-              "BOMitemName": "#6 Wood Screw",
+              "BOMitemName": "5x14mm wood screw",
               "numberNeeded": 2,
-              "costUSD": 0.2,
+              "costUSD": 0.02,
               "source": "www.example.com"
             }
           ]
@@ -4656,8 +4890,8 @@
             {
               "atomType": "Extrude",
               "name": "Extrude",
-              "x": 0.3108465608465608,
-              "y": 0.8245125348189415,
+              "x": 0.48600508905852413,
+              "y": 0.8885135135135135,
               "uniqueID": "id-761",
               "ioValues": [
                 {
@@ -4669,8 +4903,8 @@
             {
               "atomType": "Color",
               "name": "Color",
-              "x": 0.421957671957672,
-              "y": 0.6991643454038997,
+              "x": 0.7251908396946565,
+              "y": 0.7263513513513513,
               "uniqueID": "id-765",
               "ioValues": [],
               "selectedColorIndex": 23
@@ -4678,93 +4912,10 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.544973544973545,
-              "y": 0.5041782729805014,
+              "x": 0.8015267175572519,
+              "y": 0.5337837837837838,
               "uniqueID": "id-768",
               "ioValues": [
-                {
-                  "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": [
-                      {
-                        "geometry": "cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
-                        "dimension": "3D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            -4
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#DBADA9",
-                        "bom": [
-                          {
-                            "BOMitemName": "#6 Wood Screw",
-                            "numberNeeded": 1,
-                            "costUSD": 0.1,
-                            "source": "www.example.com"
-                          }
-                        ]
-                      },
-                      {
-                        "geometry": "loft-move-circle-1.65-0-0-0-circle-4.25-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
-                        "dimension": "3D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#DBADA9",
-                        "bom": []
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "tags": [],
-                    "color": "#aad7f2",
-                    "bom": [],
-                    "dimension": "3D"
-                  }
-                },
                 {
                   "name": "Shape 2",
                   "ioValue": {
@@ -4792,6 +4943,40 @@
                     },
                     "color": "#D9544D",
                     "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": {
+                    "geometry": "move-fuse-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14-loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0--1.5",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "5x14mm wood screw",
+                        "numberNeeded": 1,
+                        "costUSD": 0.01,
+                        "source": "www.example.com"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#DBADA9",
+                    "dimension": "3D"
                   }
                 }
               ]
@@ -5166,6 +5351,366 @@
                   "source": "www.example.com"
                 }
               ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "name": "Small_Wood_Screw",
+              "x": 0.06361323155216285,
+              "y": 0.6587837837837838,
+              "uniqueID": "id-3479",
+              "ioValues": [],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "name": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-3470",
+                  "ioValues": []
+                },
+                {
+                  "atomType": "Circle",
+                  "name": "Circle",
+                  "x": 0.07379134860050891,
+                  "y": 0.28378378378378377,
+                  "uniqueID": "id-3471",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 3
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "name": "Extrude",
+                  "x": 0.2926208651399491,
+                  "y": 0.48986486486486486,
+                  "uniqueID": "id-3472",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": -14
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "name": "Circle",
+                  "x": 0.06361323155216285,
+                  "y": 0.597972972972973,
+                  "uniqueID": "id-3473",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 5
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "name": "Move",
+                  "x": 0.089058524173028,
+                  "y": 0.8952702702702703,
+                  "uniqueID": "id-3474",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 1.5
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Loft",
+                  "name": "Loft",
+                  "x": 0.26208651399491095,
+                  "y": 0.75,
+                  "uniqueID": "id-3475",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": {
+                        "geometry": "move-circle-2.5-0-0-0",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            1.5
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": {
+                        "geometry": "circle-1.5",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    },
+                    {
+                      "name": "Shape 3",
+                      "ioValue": null
+                    }
+                  ],
+                  "closedSelection": 0
+                },
+                {
+                  "atomType": "Fusion",
+                  "name": "Fusion",
+                  "x": 0.48600508905852413,
+                  "y": 0.5945945945945946,
+                  "uniqueID": "id-3476",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": {
+                        "geometry": "loft-move-circle-2.5-0-0-0-circle-1.5-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": {
+                        "geometry": "extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--14",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    }
+                  ],
+                  "unionType": "Fusion"
+                },
+                {
+                  "atomType": "Add-BOM-Tag",
+                  "name": "Add BOM Tag",
+                  "x": 0.7964376590330788,
+                  "y": 0.375,
+                  "uniqueID": "id-3477",
+                  "ioValues": [
+                    {
+                      "name": "Item Name",
+                      "ioValue": "5x14mm wood screw"
+                    },
+                    {
+                      "name": "Number Needed",
+                      "ioValue": 1
+                    },
+                    {
+                      "name": "Cost (USD)",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "Source Link",
+                      "ioValue": ""
+                    }
+                  ],
+                  "BOMitem": {
+                    "BOMitemName": "5x14mm wood screw",
+                    "numberNeeded": 1,
+                    "costUSD": 0.01,
+                    "source": "www.example.com"
+                  }
+                },
+                {
+                  "atomType": "Color",
+                  "name": "Color",
+                  "x": 0.6819338422391857,
+                  "y": 0.706081081081081,
+                  "uniqueID": "id-3478",
+                  "ioValues": [],
+                  "selectedColorIndex": 18
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-3471",
+                  "ap2ID": "id-3475"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3471",
+                  "ap2ID": "id-3472"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-3472",
+                  "ap2ID": "id-3476"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3473",
+                  "ap2ID": "id-3474"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-3474",
+                  "ap2ID": "id-3475"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-3475",
+                  "ap2ID": "id-3476"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3476",
+                  "ap2ID": "id-3478"
+                },
+                {
+                  "ap1Name": "geometry",
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-3477",
+                  "ap2ID": "id-3470"
+                },
+                {
+                  "ap1Name": "color",
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3478",
+                  "ap2ID": "id-3477"
+                }
+              ],
+              "parentRepo": {
+                "privateRepo": false,
+                "repoName": "Small_Wood_Screw",
+                "dateCreated": "2025-11-16T00:03:02Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Small_Wood_Screw/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "id-1",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Small_Wood_Screw",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739571",
+                "ranking": 0,
+                "searchField": "small_wood_screw barboursmith a small wood screw ",
+                "owner": "BarbourSmith",
+                "description": "A small wood screw",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Small_Wood_Screw/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Small_Wood_Screw/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "MM",
+              "fileTypeVersion": 1,
+              "compiledBom": [
+                {
+                  "BOMitemName": "5x14mm wood screw",
+                  "numberNeeded": 1,
+                  "costUSD": 0.01,
+                  "source": "www.example.com"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "name": "Move",
+              "x": 0.3460559796437659,
+              "y": 0.5743243243243243,
+              "uniqueID": "id-3512",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -1.5,
+                  "currentEquation": "-1.5"
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -5195,17 +5740,23 @@
             },
             {
               "ap1Name": "geometry or number",
-              "ap2Name": "Shape 1",
-              "ap1ID": "id-721",
+              "ap2Name": "geometry",
+              "ap1ID": "id-3479",
+              "ap2ID": "id-3512"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-3512",
               "ap2ID": "id-768"
             }
           ],
           "fileTypeVersion": 1,
           "compiledBom": [
             {
-              "BOMitemName": "#6 Wood Screw",
+              "BOMitemName": "5x14mm wood screw",
               "numberNeeded": 1,
-              "costUSD": 0.1,
+              "costUSD": 0.01,
               "source": "www.example.com"
             }
           ]
@@ -5264,9 +5815,9 @@
       "fileTypeVersion": 1,
       "compiledBom": [
         {
-          "BOMitemName": "#6 Wood Screw",
+          "BOMitemName": "5x14mm wood screw",
           "numberNeeded": 2,
-          "costUSD": 0.2,
+          "costUSD": 0.02,
           "source": "www.example.com"
         }
       ]
@@ -5332,9 +5883,9 @@
       "source": "Home Depot"
     },
     {
-      "BOMitemName": "#6 Wood Screw",
-      "numberNeeded": 2,
-      "costUSD": 0.2,
+      "BOMitemName": "5x14mm wood screw",
+      "numberNeeded": 5,
+      "costUSD": 0.05,
       "source": "www.example.com"
     },
     {
